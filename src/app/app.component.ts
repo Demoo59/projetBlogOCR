@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'projet-blog-OCR';
+  posts = [
+    {
+      title:'Mon premier post'
+    },
+    {
+      title:'Mon deuxième post'
+    },
+    {
+      title:'Encore un post'
+    }
+  ];
 }
